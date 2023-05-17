@@ -132,6 +132,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="projHPC.cpp" />
+    <ClCompile Include="Sequential.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sequential.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
